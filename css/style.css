@@ -24,6 +24,7 @@ body {
 	font-family:  "Helvetica Neue" , Helvetica , Arial , Roboto, "Droid Sans", "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 	line-height: 1.8;/* 変更 */
 	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
 }
 article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section,main {
 	display: block;
