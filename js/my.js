@@ -1,5 +1,11 @@
 const hey = 'HEY!';
-let arrowFunc = ($v) => {
-	console.log($v);
+
+
+for (let i = 0; i <= 5; i++) {
+	let heyhey = + hey;
+	arrowFunc(heyhey);
 }
-arrowFunc(hey);
+
+let arrowFunc = (v) => {
+	console.log(v);
+}
