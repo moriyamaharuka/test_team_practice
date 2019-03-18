@@ -9,3 +9,5 @@ for (let i = 0; i <= 5; i++) {
 let arrowFunc = (v) => {
 	console.log(v);
 }
+
+console.log('なんで動かないんでしょう');
