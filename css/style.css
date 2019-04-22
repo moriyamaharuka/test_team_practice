@@ -129,3 +129,8 @@ section h2 {
 	box-sizing: border-box;
 	padding: 24px 16px;
 }
+
+#box_practice .test_text {
+	font-size: 24px;
+	color: rgb(133, 56, 56);
+}
