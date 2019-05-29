@@ -134,6 +134,27 @@
         参照　https://monomode.co.jp/web/git.html<br>
         </p>
         </div>
+
+        新リポジトリがクローン出来ない場合は、
+        以下のファイルを変更すると、無事繋がりました！
+
+        /Users/kabushikikaishauevuado/.ssh/config
+
+        「Host アカウント名-Bitbucket」
+        を「Host bitbucket.org」に変える
+
+        # --- Sourcetree Generated ---
+        　　Host moriyamaharuka-Bitbucket
+        HostName bitbucket.org
+        User moriyamaharuka
+        PreferredAuthentications publickey
+        IdentityFile /Users/moriyama02/.ssh/moriyamaharuka-Bitbucket
+        UseKeychain yes
+        AddKeysToAgent yes
+        # ----------------------------
+
+        また山内さんが教えてくれました。笑
+        私の力ではありません。すいません。
     </section>
 
 
