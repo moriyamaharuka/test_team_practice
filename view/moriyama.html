@@ -49,6 +49,30 @@
 		チェリーピックの際に表記されるのは、取り込んだコミット名のようです。
 		多分。
 		</div>
-
 	</section>
+	<section>
+			<h2>ちょっと私にはまだよく分からないので実験します</h2>
+			<div>
+				<span>
+				これ覚えれたら、いずれ更新ミスもファイル上書き間違いも怖くない。
+				ってやつでしょうか…？
+				</span>
+
+				resetはコミット自体を履歴から取り消す。
+				revertは取り消すコミットを履歴に残したまま「取り消すコミット」を新たに生成する。
+				-----------------
+				【プッシュする前】
+				直前のCommitだけを修正する場合： amend
+				Commitを消したい場合： reset
+				古いCommitを修正する場合： rebase
+
+				【プッシュした後】
+				Commitをなかったことにしたい： revert
+				Push後にはamend/reset/rebaseしちゃダメ
+				-----------------
+
+				https://qiita.com/nnishimura/items/b5410e35f3a292a55244
+			</div>
+			
+	</Section>
 </body>
