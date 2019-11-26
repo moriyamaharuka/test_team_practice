@@ -24,7 +24,6 @@ body {
 	font-family:  "Helvetica Neue" , Helvetica , Arial , Roboto, "Droid Sans", "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 	line-height: 1.8;/* 変更 */
 	-webkit-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
 }
 article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section,main {
 	display: block;
@@ -128,29 +127,4 @@ section h2 {
 	border: 1px solid rgb(218, 218, 218);
 	box-sizing: border-box;
 	padding: 24px 16px;
-}
-
-#box_practice .test_text {
-	font-size: 24px;
-	color: rgb(133, 56, 56);
-}
-
-.txt_red {
-	color: rgb(255, 0, 0);
-}
-
-.box {
-	border: 1px solid rgb(218, 218, 218);
-	box-sizing: border-box;
-	padding: 24px 16px;
-	margin-bottom: 10px;
-}
-.box {
-	border: 1px solid rgb(218, 218, 218);
-	box-sizing: border-box;
-	padding: 24px 16px;
-	margin-bottom: 10px;
-}
-.box_02{
-	font-size:30px;
 }
